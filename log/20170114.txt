@@ -1,0 +1,425 @@
+-----------------------------------
+2017/01/14 00:14:30
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:14:30
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:14:30
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:14:30
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:14:30
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:14:30
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:35:59
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:35:59
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:35:59
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:35:59
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:35:59
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 00:35:59
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:31:39
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:31:39
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:31:39
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:31:39
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:31:39
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:31:39
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:34:54
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:34:54
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:34:54
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1  and art.cat_id=1
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:34:54
+select count(*) from art where 1  and art.cat_id=1
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:34:54
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  and art.cat_id=1 order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 01:34:54
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 02:24:09
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 02:24:09
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 02:24:09
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 02:24:09
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 02:24:09
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 02:24:09
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:14
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:14
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:14
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:14
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:14
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:14
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:24
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:24
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:24
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:24
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:24
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 04:51:24
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 05:09:30
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 05:09:30
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 05:09:30
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 05:09:30
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 05:09:30
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 05:09:30
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 06:33:33
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 06:33:33
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 06:33:33
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1  and art.cat_id=12
+-----------------------------------
+
+-----------------------------------
+2017/01/14 06:33:33
+select count(*) from art where 1  and art.cat_id=12
+-----------------------------------
+
+-----------------------------------
+2017/01/14 06:33:33
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  and art.cat_id=12 order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 06:33:33
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 07:50:55
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 07:50:55
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 07:50:55
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 07:50:55
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 07:50:55
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 07:50:55
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 10:32:05
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 10:32:06
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 10:32:06
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 10:32:06
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 10:32:06
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 10:32:06
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:13:30
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:13:30
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:13:30
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1  and art.cat_id=14
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:13:30
+select count(*) from art where 1  and art.cat_id=14
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:13:30
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  and art.cat_id=14 order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:13:30
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:28:29
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:28:29
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:28:29
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:28:29
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:28:29
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 12:28:29
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 18:36:15
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2017/01/14 18:36:15
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2017/01/14 18:36:15
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1  and art.cat_id=13
+-----------------------------------
+
+-----------------------------------
+2017/01/14 18:36:15
+select count(*) from art where 1  and art.cat_id=13
+-----------------------------------
+
+-----------------------------------
+2017/01/14 18:36:15
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  and art.cat_id=13 order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2017/01/14 18:36:15
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2017/01/14 21:48:16
+set names utf8
+-----------------------------------
+

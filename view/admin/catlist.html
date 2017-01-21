@@ -1,0 +1,27 @@
+
+        <div id="rside">
+            <table>
+                <tr>
+                    <td>序号</td>
+                    <td>栏目名称</td>
+                    <td>文章数量</td>
+                    <td>&nbsp&nbsp操&nbsp&nbsp&nbsp&nbsp作</td>
+                </tr>
+
+
+                <?php foreach($names as $v){?>
+                <tr>
+                    <td><?php echo $v['cat_id'];?></td>
+                    <td><?php echo $v['catname'];?></td>
+                    <td><span class="badge"><?php echo $v['num'];?></span></td>
+                    <td><span><a href="catedit.php?cat_id=<?php echo $v['cat_id'];?>">编辑</a></span>|
+                        <span><a href="catdel.php?cat_id=<?php echo $v['cat_id'];?>">删除</a></span>
+                    </td>
+                </tr>
+                <?php }?>
+
+
+              
+            </table>
+        </div>
+    </div>

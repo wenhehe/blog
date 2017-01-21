@@ -1,0 +1,25 @@
+
+        <div id="rside">
+            <table>
+                <tr>
+                    <td>序号</td>
+                    <td>日期</td>
+                    <td>标题</td>
+                     <td>&nbsp&nbsp操&nbsp&nbsp&nbsp&nbsp作</td>
+                </tr>
+                <?php foreach($line as $v){?>
+                <tr>
+                    <td><?php echo $v['id'];?></td>
+                    <td><?php echo date('Y/m/d',strtotime($v['date']))?></td>
+                    <td><a href="timeline.php?id=<?php echo $v['id'];?>" target="blank"><?php echo $v['title']; ?></a></td>
+                    <td>
+                        <span><a href= "timelineedit.php?id=<?php echo $v['id']?>">编辑</a></span>|
+                        <span><a href= "timelinedel.php?id=<?php echo $v['id']?>">删除</a></span>
+                    </td>
+                </tr>
+                <?php }?>
+
+            </table>
+            
+        </div>
+    </div>

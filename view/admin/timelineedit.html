@@ -1,0 +1,33 @@
+
+        <div id="rside">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label>标题:</label>
+                    <p>
+                        <input type="text" name="title" style="width:199px;" value="<?php echo $line['title']?>">
+                    </p>
+                </div>
+                
+                <div class="form-group">
+                    <label>时间:</label>
+                    <p>
+                        <input type="text" name="date" size="14" readonly onClick="showcalendar(event,this);" onFocus="showcalendar(event, this);if(this.value=='0000-00-00')this.value=''" style="width:199px;" value="<?php echo date('Y-m-d',strtotime($line['date']))?>">
+                    </p>
+                </div>
+
+                <div class="form-group">
+                    <label >内容:</label>
+                    <p>
+                        <textarea name="content" style="height:200px;"><?php echo $line['content']?></textarea>
+                    </p>
+                </div>
+                
+                <div class="form-group">
+                    <label>&nbsp;</label>
+                    <p>
+                        <button type="submit">提交</button>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>

@@ -1,0 +1,39 @@
+
+        <div id="rside">
+            <table>
+                <tr>
+                    <td>序号</td>
+                    <td>日期</td>
+                    <td>标题</td>
+                    <td>分类</td>
+                    <td>回复</td>
+                     <td>&nbsp&nbsp操&nbsp&nbsp&nbsp&nbsp作</td>
+                </tr>
+                <?php foreach($art as $v){?>
+                <tr>
+                    <td><?php echo $v['art_id'];?></td>
+                    <td><?php echo date('Y/m/d',$v['pubtime']); ?></td>
+                    <td><a href="art.php?art_id=<?php echo $v['art_id'];?>" target="blank"><?php echo $v['title']; ?></a></td>
+                    <td><?php echo $v['catname'];?></td>
+                    <td><span class="badge"><?php echo $v['comm']; ?></span></td>
+                    <td>
+                        <span><a href= "artedit.php?art_id=<?php echo $v['art_id']?>">编辑</a></span>|
+                        <span><a href= "artdel.php?art_id=<?php echo $v['art_id']?>">删除</a></span>
+                    </td>
+                </tr>
+                <?php }?>
+
+            </table>
+            <div id="pagebar">
+                Pages:&nbsp;
+
+                <?php foreach($page as $k=>$v){?>
+                <?php if($k == $curr){?>
+                <?php echo $k;}else {?>
+                <a href="artlist.php?<?php echo $v; ?>"><?php echo $k;?></a>
+                <?php }?>
+                <?php }?>
+
+            </div>
+        </div>
+    </div>

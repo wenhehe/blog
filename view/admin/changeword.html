@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/art.css">
+<style>
+form {
+width:30%;
+margin:0 auto;
+}
+</style>
+<script type="text/javascript">
+    function check(){
+        var password = document.getElementsByName('password')[0].value;
+        var newpassword = document.getElementsByName('newpassword')[0].value;
+        var text_newpassword =document.getElementsByName('text_newpassword')[0].value;
+        if(password =='' || newpassword == '' || text_newpassword ==''){
+            alert('密码不能为空');
+            return false;
+        }
+        if(newpassword != text_newpassword ){
+            alert('两次密码不一致！')
+            return false;
+        }
+        return ture;
+    }
+
+    function doStep(){
+        //var f = document.pwdForm;
+        //alert(f.password.value);
+
+        var password = document.getElementsByName('password')[0].value;
+        var newpassword = document.getElementsByName('newpassword')[0].value;
+        var text_newpassword = document.getElementsByName('text_newpassword')[0].value;
+        if(password == ''){
+            alert('请填写原密码！');
+            return false;
+        }
+        if(newpassword == ''){
+            alert('请填写新密码！');
+            return false;
+        }
+        if(text_newpassword == ''){
+            alert('请再次填写新密码！');
+            return false;
+        }
+        if(newpassword != text_newpassword ){
+            alert('两次新密码必须一致！');
+            return false;
+        }
+        
+      return true;
+         
+    }
+
+</script>
+</head>
+<body>
+    <header>
+        <h1>Blog后台管理界面</h1>
+    </header>
+    <div id="main">
+        <div id="respond" class="comment-respond">
+            <form action="#" method="post" name = "pwdForm">
+                <p>
+                <input placeholder="原密码" name="password" type="text" value="" size="30">
+                </p>
+                 <p>
+                <input placeholder="新密码" name="newpassword" type="text" value="" size="30">
+                </p>
+                 <p>
+                <input placeholder="确认新密码" name="text_newpassword" type="text" value="" size="30">
+                </p>
+                <p>
+                <input type="submit" value="确定修改" onClick="return doStep()">
+            	</p>
+            </form>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 2016 · GeneratePress · WordPress
+    </footer>
+</body>
+</html>
+
+
+<script type="text/javascript">
+    
+    
+
+</script>

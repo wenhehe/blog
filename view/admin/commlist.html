@@ -1,0 +1,38 @@
+
+        <div id="rside">
+            <table>
+                <tr>
+                    <td>序号</td>
+                    <td>日期</td>
+                    <td>nick</td>
+                    <td>email</td>
+                    <td>content</td>
+                    <td>ip</td>
+                    <td>操作</td>
+                </tr>
+                <?php foreach($comms as $v){?>
+                <tr>
+                    <td><?php echo $v['comment_id'];?></td>
+                    <td><?php echo date('Y/m/d',$v['pubtime']); ?></td>
+                    <td><a href="#"><?php echo $v['nick']; ?></a></td>
+                    <td><?php echo $v['email'];?></td>
+                    <td><span class="badge"><?php echo $v['content']; ?></span></td>
+                    <td><?php echo long2ip($v['ip']);?></td>
+                    <td>
+                        <span><a href= "commdel.php?comment_id=<?php echo $v['comment_id']?>">删除</a></span>
+                    </td>
+                </tr>
+                <?php }?>
+
+            </table>
+            <div id="pagebar">
+                Pages:&nbsp;
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                4
+                <a href="#">5</a>
+                <a href="#">6</a>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,49 @@
+<div id="rside">
+            <aside>
+                <form action="">
+                    <input type="text" name="search" placeholder="Search...">
+                </form>
+            </aside>
+            <aside>
+                <h4>分类目录</h4>
+                <ul>
+                <?php foreach($cat as $v) { ?>
+                    <li><a href="index.php?cat_id=<?php echo $v['cat_id']; ?>"><?php echo $v['catname']; ?>（<?php echo $v['num']; ?>）</a></li>
+               <?php }?>
+                </ul>
+            </aside>
+            <aside>
+                <h4>最近文章</h4>
+                <ul>
+                <?php foreach($recart as $v){?>
+                    <li><a href="art.php?art_id=<?php echo $v['art_id'];?>" target = "blank"><?php echo $v['title']?></a></li>
+                  <?php }?>
+                </ul>
+            </aside>
+            <aside>
+                <h4>功能</h4>
+                <ul>
+                    <li><a href="">注册</a></li>
+                    <li><a href="login.php" target="blank">登陆</a></li>
+                </ul>
+            </aside>
+    <!--        <aside>
+                <h4>测试标题</h4>
+                <ul>
+                    <li><a href="">文章标题1</a></li>
+                    <li><a href="">文章标题2</a></li>
+                    <li><a href="">文章标题3</a></li>
+                    <li><a href="">文章标题4</a></li>
+                </ul>
+            </aside>
+            <aside>
+                <h4>测试标题</h4>
+                <ul>
+                    <li><a href="">文章标题1</a></li>
+                    <li><a href="">文章标题2</a></li>
+                    <li><a href="">文章标题3</a></li>
+                    <li><a href="">文章标题4</a></li>
+                </ul>
+            </aside>   -->
+        </div>
+    </div>

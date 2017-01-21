@@ -1,0 +1,48 @@
+
+<link href="css/timeline.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+
+
+	<section id="cd-timeline" class="cd-container">
+	
+	<?php foreach($line as $v){?>
+
+		<div class="cd-timeline-block">
+
+			<div class="cd-timeline-img cd-picture">
+				<img src="images/cd-icon-picture.svg" alt="Picture">
+			</div><!-- cd-timeline-img -->
+
+			<div class="cd-timeline-content">
+				<h2><?php echo $v['title']?></h2>
+				<p><?php echo $v['content']?></p>
+				<span class="cd-date"><?php echo date('Y/m/d',strtotime($v['date']))?></span>
+			</div> <!-- cd-timeline-content -->
+		</div> <!-- cd-timeline-block -->
+
+	<?php }?>
+
+
+	</section> <!-- cd-timeline -->
+	
+<script>
+$(function(){
+	var $timeline_block = $('.cd-timeline-block');
+	//hide timeline blocks which are outside the viewport
+	$timeline_block.each(function(){
+		if($(this).offset().top > $(window).scrollTop()+$(window).height()*0.75) {
+			$(this).find('.cd-timeline-img, .cd-timeline-content').addClass('is-hidden');
+		}
+	});
+	//on scolling, show/animate timeline blocks when enter the viewport
+	$(window).on('scroll', function(){
+		$timeline_block.each(function(){
+			if( $(this).offset().top <= $(window).scrollTop()+$(window).height()*0.75 && $(this).find('.cd-timeline-img').hasClass('is-hidden') ) {
+				$(this).find('.cd-timeline-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
+			}
+		});
+	});
+});
+</script>

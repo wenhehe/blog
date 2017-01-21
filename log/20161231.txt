@@ -1,0 +1,845 @@
+-----------------------------------
+2016/12/31 00:46:49
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 00:46:49
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 00:46:49
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 00:46:49
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 00:46:49
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 00:46:49
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:01
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:01
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:01
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:01
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:01
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:01
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:11
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:11
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:11
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:11
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:11
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:11
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:17
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:17
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:18
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:19
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:19
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:19
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:19
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:19
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 08:33:19
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 09:36:24
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 09:36:24
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 09:36:24
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 09:36:24
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 09:36:24
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 09:36:24
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:17:48
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:17:48
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:17:48
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:17:48
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:17:48
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:17:48
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:40:27
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:40:27
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:40:27
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:40:27
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:40:27
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 10:40:27
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:23:28
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:23:28
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:23:28
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:23:28
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:23:28
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:23:28
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:28
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:28
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:28
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:28
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:28
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:28
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:36
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:36
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:36
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:36
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:36
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:24:36
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:59:52
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:59:52
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:59:52
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:59:52
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:59:52
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 12:59:52
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:23:45
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:24:01
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:25
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:25
+select * from user where name = 'tami' and password = '20160830'
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:25
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:25
+select count(*) from art
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:25
+select art_id,title,content,pubtime,comm,catname from art left join cat on art.cat_id = cat.cat_id order by art_id desc limit 0,10
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:34
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:34
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:35
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:35
+select count(*) from art
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:35
+select art_id,title,content,pubtime,comm,catname from art left join cat on art.cat_id = cat.cat_id order by art_id desc limit 0,10
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:35
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:42
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:42
+select count(*) from art
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:42
+select art_id,title,content,pubtime,comm,catname from art left join cat on art.cat_id = cat.cat_id order by art_id desc limit 0,10
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:43
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:43
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:43
+select count(*) from art
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:43
+select art_id,title,content,pubtime,comm,catname from art left join cat on art.cat_id = cat.cat_id order by art_id desc limit 0,10
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:43
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:45
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:45
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:45
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:45
+select count(*) from art
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:45
+select art_id,title,content,pubtime,comm,catname from art left join cat on art.cat_id = cat.cat_id order by art_id desc limit 0,10
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:45
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:30:45
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 13:31:20
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:04
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:04
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:04
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:04
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:04
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:04
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:07
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:07
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:07
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:07
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:07
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:07
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:14
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:14
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:14
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:14
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:14
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 15:54:14
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:34
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:34
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:34
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:34
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:34
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:34
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:43
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:43
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:43
+select count(*) from art
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:43
+select art_id,title,content,pubtime,comm,catname from art left join cat on art.cat_id = cat.cat_id order by art_id desc limit 0,10
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:47
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:47
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:51
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:51
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:51
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:51
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:51
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 16:59:51
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:03
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:03
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:03
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:25
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:25
+select * from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:25
+select nick from user where name = 'tami'
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:26
+insert into art (title,cat_id,content,arttag,pubtime,nick) values ('生命轮上的2016','2','<p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\">我们真实的居所是时间，而非空间。做一个在时间里耕耘的人远比为空间疲于奔命可靠得多。无论占有多少疆土与财富，如果不能在时间上做自己的主人，其所拥有的仍不过是贫困的一生。真正属于我们的，是我们在短暂的生命之中所有体验过的一切，是你将所有时间浇灌于上的一切，你即你时间。我们手握的时间与生命，正如我们所拥有的智力与权利，都是我们一生的资本。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\">人终有一死，但若是说活着没有意义难免陷入虚无主义。我没有任何宗教信仰，你说天堂地狱，前世往生，于我没有意义，只有敬畏。电影《云图》中有一句台词：</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">I believe that death is a door, when it closes, another opens.</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">Our lives are not our own.From the womb to the tomb. </p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">We are bound to others, past and present, </p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">and by each crime and every kindness, </p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">we birth our future.　</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">　　我相信死亡只是一扇门，当它关闭时，另一扇就会打开。　</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">我们的生命不是我们自己的。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">从子宫到坟墓，我们和其他人紧紧相连，</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">过去，现在，每一桩恶行，每一件善事，</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;text-align:center;margin-top:0px;margin-bottom:0px;\">我们孕育着自己的未来。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;margin-top:0px;margin-bottom:0px;\">这段话我自己把它取名叫做“生命的唯物观”，给我的感觉很像存在主义，但又有遥远的巧合，似真也幻，蕴含着生命的馈赠与恶果，当你为自己的言行负责的时候，一切都会还到自己的身上，也会以某种神奇的方式延续你的“生命”，这里的生命指的是你的人生产出，电影之中联系不同生命轨迹的不是亲缘关系，而是每个人的人生产出，这产出或许是影像、日记、传记、信件、作曲等等，它们流传于世，融入下一代的生命中，两个人就产生的共同的思想基因。因此，“死亡<span style=\"margin:0px;padding:0px;\">只是一扇门，当它关闭时，另一扇就会打开。”“我们孕育着自己的“未来”。”我们，是我们自己的作品。</span></p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;margin-top:0px;margin-bottom:0px;\"><span style=\"margin:0px;padding:0px;\">人皆好为人师，但我认为，不仅仅，己所不欲勿施于人，还应该，己之所欲勿施于人。我无意讲道理，只想把自己的想法更明白地写下来。写作于我是一种思考过程，让我自知自省，岁月流逝而</span><span style=\"margin:0px;padding:0px;text-align:center;\">心安，我更希望它能够成为我的作品，不求流芳百世，但求不枉过一世，如此</span><span style=\"margin:0px;padding:0px;text-align:center;\">自得</span><span style=\"margin:0px;padding:0px;text-align:center;\">心意相合之人。</span>文字打败时间。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;margin-top:0px;margin-bottom:0px;\">读书需要向前总结，向后预判。生命更是如此。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;margin-top:0px;margin-bottom:0px;\">独自在外求学的这几年，常常会处于自我管理失控的状态，”独立无能“是我常常自嘲的说法，换言之就是不会分配时间，不会协调工作、学习与生活，不会规划。自己虽然懒，但好歹不将就，每隔一阵子的”小确崩“都能让我重新改头换面，还好舍友一直以眼神鄙视我，让我不至于堕落到弃疗。到后来，发现哪怕自己离家几千里独自生活，也已经养成了良好的生活习惯。在混乱中前进，在摸索中独立，这是我理解的成长。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;margin-top:0px;margin-bottom:0px;\">罗列2016的书单或者影单没有意义，每个人的经历不同理解不同，读书观影缓慢而有力的改变我们对世界的认知，我曾经纠结于自己的矛盾性，但读得越多却想得越开朗了些：世界的复杂源于人性的复杂，但凡有机会洞悉和观察到人性的种种阴暗面，我们就不可能不复杂，但我们了解和经历这一切令人失望的事情，是让我们更宽容地去理解这个世界的复杂，而不是为了最终向庸俗与破败低头。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;border-width:0px;font-size:15px;vertical-align:baseline;margin-top:0px;margin-bottom:0px;\">大部分日子都是一样的，闪光的日子在于淋漓的体验，不一样的旅途，还有结识有意思的人儿。第一次永远是铭记于心的，第一次经历陷入麻木无助的低谷，连美食都失去兴趣；第一次正经写论文，第一次论文答辩；第一次穿上学士服，参加大学毕业典礼；第一次独自一人瞒着家人去远方旅行，第一次去草原，第一次知道了什么是心心相印，什么是真爱；第一次去北京，去706，去孤阅空间，见到一群优秀到让我自惭形秽的同辈与前辈们，与他们在一起的每一刻都足以照耀我与他们分离的日子。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\">历经16年，还有一个很深的感慨是：爱人，是一种能力，也是一种馈赠。在与人相处的过程中，如果不是曾经被好好爱过，好好对待过，你不会知道该怎样对待他人，由此，在教我与人相处的这一课上，我谢谢我的家人，尤其是妈妈，不是你，我不会知道在削苹果中这一件小事中都蕴藏着爱意。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\"><br style=\"margin:0px;padding:0px;\" /></p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\">17年，继续日常的读书健身，攻下燎原课程，今后多写些学术落地文章，少些自言自语。专注于自身，低调地培养自己的独特性。欢迎同行。<strong style=\"margin:0px;padding:0px;\"><span style=\"margin:0px;padding:0px;font-family:微软雅黑;font-size:15px;\"></span></strong></p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\">期待明年此刻的自己。</p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\"><br /></p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\"><strong style=\"margin:0px;padding:0px;\">愿心中有火，眼中有光。敢于知道，骰子已经掷出，点燃学习的烈焰。</strong></p><p style=\"padding:0px;clear:both;font-family:&quot;helvetica neue&quot;, helvetica, &quot;hiragino sans gb&quot;, &quot;microsoft yahei&quot;, arial, sans-serif;font-size:medium;margin-top:0px;margin-bottom:0px;\"><strong style=\"margin:0px;padding:0px;\"></strong></p><p><br /></p>','','1483203625','婷婷')
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:26
+update cat set num = num+1 where cat_id =2
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:31
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:31
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:31
+select count(*) from art inner join cat on art.cat_id = cat.cat_id where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:31
+select count(*) from art where 1 
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:31
+select art_id,title,pubtime,content,nick,thumb,comm,catname,num from art inner join cat on art.cat_id = cat.cat_id where 1  order by art_id desc limit 0,5
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:31
+select art_id,title from art order by pubtime desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:33
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:33
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:33
+select count(*) from art where art_id = 71
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:33
+select catname,title,content,pic,pubtime,comm,nick from art inner join cat on cat.cat_id = art.cat_id where art_id = 71
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:33
+select * from comment where art_id = 71
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:33
+select art_id,title from art order by art_id desc limit 0,6
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:43
+set names utf8
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:43
+select cat_id,catname,num from cat
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:43
+select count(*) from art where art_id = 71
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:43
+select catname,title,content,pic,pubtime,comm,nick from art inner join cat on cat.cat_id = art.cat_id where art_id = 71
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:43
+select * from comment where art_id = 71
+-----------------------------------
+
+-----------------------------------
+2016/12/31 17:00:43
+select art_id,title from art order by art_id desc limit 0,6
+-----------------------------------
+

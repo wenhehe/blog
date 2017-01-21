@@ -1,0 +1,65 @@
+
+        <div id="rside">
+            <form action="" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label>标题:</label>
+                    <p>
+                        <input type="text" name="title">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label>栏目:</label>
+                    <p>
+                        <select name="cat_id">
+
+                        <?php foreach($cat as $v){?>
+                            <option value="<?php echo $v['cat_id'];?>"><?php echo $v['catname'];?>
+                                <?php }?>
+                            </option>
+
+                        </select>
+                    </p>
+                </div>
+
+                <div class="form-group">
+                    <label >图片:</label>
+                    <p>
+                       <input type="file" name="pic" id="">
+                    </p>
+                </div>
+
+                <div class="form-group">
+                    <label >内容:</label>
+                    <p>
+                        <textarea id="art" name="content"></textarea>
+                    </p>
+                </div>
+
+                <script type="text/javascript" src="../ueditor/editor_config.js"></script>
+
+                <script type="text/javascript" src="../ueditor/editor.js"></script>
+
+                <link rel="stylesheet" href="../ueditor/themes/default/ueditor.css" />
+
+                <script type="text/javascript" >
+                    var editor = new UE.ui.Editor( {initialFrameWidth:530 ,
+                    toolbars:[["FullScreen","Source","Undo","Redo","InsertUnorderedList","InsertOrderedList","Unlink","Link","ClearDoc","SelectAll","Print","SearchReplace","Preview","Help","|","GMap","PageBreak","InsertImage","scrawl","music","SnapScreen","Emotion","Attachment","InsertFrame","Date","Time","WordImage","Map","webapp","Horizontal","Anchor","Spechars","BlockQuote","HighlightCode","template","background","Bold","Italic","Underline","StrikeThrough","ForeColor","BackColor","Superscript","Subscript","JustifyLeft","JustifyCenter","JustifyRight","JustifyJustify","touppercase","tolowercase","DirectionalityLtr","DirectionalityRtl","Indent","RemoveFormat","FormatMatch","AutoTypeSet","PastePlain","CustomStyle","Paragraph","RowSpacingBottom","RowSpacingTop","LineHeight","FontFamily","FontSize","ImageNone","ImageLeft","ImageRight","ImageCenter","InsertTable","DeleteTable","MergeRight","MergeDown","SplittoRows","SplittoCols","SplittoCells","MergeCells"]]});
+                    editor.render('art');
+                    </script>
+
+
+                <div class="form-group">
+                    <label>标签:</label>
+                    <p>
+                        <input type="text" name="tag">
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label>&nbsp;</label>
+                    <p>
+                        <button type="submit">提交</button>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
