@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
 require './lib/init.php';
+
 if(acc()){
 	header('Location:artlist.php');
 }

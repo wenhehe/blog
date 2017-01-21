@@ -4,6 +4,7 @@ if(!acc()){
 	header('Location:login.php');
 }
 
+
 $db = new Mysql();
 
 $sql = 'select count(*) from art';
