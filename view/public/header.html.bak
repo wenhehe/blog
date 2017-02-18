@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta property="wb:webmaster" content="0c6f1863bfa1809d" />
+    <title>LOTAMITIVE</title>
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/art.css">
+<link href='http://fonts.googleapis.com/css?family=Fruktur' rel='stylesheet' type='text/css'>
+<link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a  href="index.php"><h6>LOTAMITIVE</h6></a>
+        <br>
+        <h4>怕什么幸福有时，爱一刻有一刻的欢喜。</h4>
+    </header>
+    <nav>
+        <div class="nav">
+            <div class="nav_left">
+                <ul>
+                    <li><a href="index.php">札记</a></li>
+                    <li><a href="timeline.php">里程碑</a></li>
+                </ul>
+            </div>
+            <div class="nav_right">
+                <ul>
+                    <?php if(empty($_SESSION['name'])){ ?>
+                    <li><a href="login.php" target="blank">登陆</a></li>
+                    <li><a href="">注册</a></li>
+                    <?php }else{ ;?>
+                    <li><a>love:<?php echo $_SESSION['name'] ; ?></a></li>
+                    <? } ?>
+                </ul>
+            </div>
+        </div>
+    </nav>

@@ -48,7 +48,7 @@ if(empty($_POST)){
 	$art['pubtime'] = time();
 	
 	//插入作者
-	$sql = "select nick from user where name = "."'".$_COOKIE['name']."'";
+	$sql = "select nick from user where name = "."'".$_SESSION['name']."'";
 	$nick = $db->getOne($sql);
 	$art['nick'] = $nick; 
 	
