@@ -17,7 +17,7 @@ class Recorder{
         //-------读取配置文件
         $this->inc->appid = '101376337';
         $this->inc->appkey = '2d6ebf636cefdf18e3c70d1551ed50f1';
-        $this->inc->callback = 'http://wwww.lotamitive.com/oauth/qqConnect/callback_qq.php';
+        $this->inc->callback = 'http://www.lotamitive.com/oauth/qqConnect/callback_qq.php';
         $this->inc->scope = 'get_user_info';
         $this->inc->errorReport = true;
         $this->inc->storageType = 'file';
