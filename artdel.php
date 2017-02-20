@@ -1,5 +1,6 @@
 <?php
 require_once './lib/init.php';
+
 if(!acc()){
 	header('Location:login.php');
 }

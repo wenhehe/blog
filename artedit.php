@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
 require_once './lib/init.php';
+
 if(!acc()){
 	header('Location:login.php');
 }

@@ -23,7 +23,8 @@ function buildRandomString(	$type = 1 , $length = 4 ){
 
 function verifyImage($sess_name = 'verify',	$type = 1, $length = 4,	$pixel = 0,$line = 0){
 
-	
+	session_start();
+
 	$width = 120;
 	$height = 40;
 	$image = imagecreatetruecolor($width, $height);
@@ -64,7 +65,8 @@ function verifyImage($sess_name = 'verify',	$type = 1, $length = 4,	$pixel = 0,$
 			imageline($image, mt_rand(0,$width-1),mt_rand(0,$height-1),mt_rand(0,$width-1),mt_rand(0,$height-1), $color = imagecolorallocate($image, mt_rand(59,90),mt_rand(80,200),mt_rand(90,180)));
 		}
 	}
-	
+	// var_dump($_SESSION);
+	// exit;
 	//输出图片
 	ob_clean();
 	header("content-type:image/gif");
