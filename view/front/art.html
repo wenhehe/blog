@@ -28,7 +28,7 @@
             <?php  foreach($comm as $v){?>
                 <ol>
                     <li>
-                        <img src="<?php echo getGravatar($v['email']);?>" alt="">
+                        <img src="../../images/gra.png" width="50" height="50" alt="">
                         <cite><a href="#"><?php echo $v['nick']; ?></a></cite> <br>
                         <time><?php echo date('Y年m月d日 H:i',$v[pubtime])?></time>
                     </li>
@@ -45,12 +45,6 @@
                 <p style="color:red;">评论发布失败！</p>
                 <?php }?>
                 <form action="" method="post">
-                    <p>
-                    <input placeholder="your nick" name="nick" type="text" value="" size="30">
-                    </p>
-                    <p>
-                    <input placeholder="Email" name="email" type="text" value="" size="30">
-                    </p>
                     <p>
                     <textarea name="content" cols="45" rows="8" aria-required="true"></textarea>
                     <p>

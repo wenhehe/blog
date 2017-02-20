@@ -27,15 +27,15 @@ $art = $db->getRow($sql);
 //判断是否有评论提交
 if(!empty($_POST)){
 	$comm['art_id']=trim($_GET['art_id']);
-	$comm['nick'] = trim($_POST['nick']);
+	$comm['nick'] = trim($_SESSION['name']);
 	$comm['content'] = trim($_POST['content']);
 	$comm['pubtime'] = time();
-	$comm['email'] = trim($_POST['email']);
-	
+
 	//获取来访者ip
 	$comm['ip'] = sprintf('%u',ip2long(getIP()));
 
 	$res = $db->Exec($comm, 'comment');
+
 	if($res){
 		//评论数加1
 		$db->query("update art set comm = comm+1 where art_id = ".$comm['art_id']);
