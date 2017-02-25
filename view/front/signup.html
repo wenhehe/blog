@@ -1,0 +1,37 @@
+<div id="main" >
+        <div id="respond" class="comment-respond" >
+            <form action="#" method="post" style="margin:30px 370px">
+            <?php if(isset($bond)) echo "<p><h3>首次第三方账号登陆，请绑定原账号：</h2></p>";?>
+                <p>
+                <input placeholder="用户名" name="name" type="text" value="" size="30">
+                </p>
+                <p>
+                <input placeholder="密码" name="password" type="password" value="" size="30">
+                </p>
+                <p>
+                <input placeholder="重复密码" name="password" type="password" value="" size="30">
+                </p>
+                <?php if(!isset($bond)){?>
+                <p>
+                <input placeholder="验证码" name="verify" type="text" value="" size="30">
+                </p>
+                <p>
+                <table><tr>
+                <td><img id="uni" src="getVerify.php" border=0 onclick="change();"></td>
+                <td>&nbsp&nbsp&nbsp&nbsp<input name="autoFlag" type="checkbox" value="1" >七日免登陆</td>
+                <td> &nbsp&nbsp&nbsp&nbsp<input type="submit" value="注册"></td>
+                </tr></table>
+                
+                <ul id="login" >
+                <li style="float:left; margin-left:10px ;margin-bottom: 15px"><a href="/oauth/qqConnect/qqlogin.php"><img src="./images/qq_login_blue.png" height="33"></a></li>
+                <li style="float:left; margin-left:14px ;margin-bottom: 15px"><a href="/oauth/weibo/wblogin.php"><img src="./images/weibo_login.png" height="33"></a></li>
+                </ul>
+                <?php }else{?>
+                <p><input type="submit" value="绑定"></p>
+                <?php }?>
+                <p><br></p>
+                <p style="clear: both;"></p>
+
+            </form>
+        </div>
+    </div>

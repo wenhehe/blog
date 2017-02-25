@@ -43,3 +43,5 @@ include(ROOT.'/view/public/header.html');
 include(ROOT.'/view/front/index.html');
 include_once(ROOT.'/view/public/frontright.html');
 include_once(ROOT.'/view/public/footer.html');
+
+?>
